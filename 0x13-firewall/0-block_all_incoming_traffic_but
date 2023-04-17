@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Configures a ufw firewall to block all incoming traffic
 #except for TCP ports 22, 443 and 80.
-ssh root@52.87.235.53
+ssh root@54.87.252.249
 apt-get install ufw
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
 ufw disable 
